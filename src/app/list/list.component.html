@@ -1,0 +1,12 @@
+    <h3>Add Category</h3>
+    <form (submit)="addCategory()">
+      <input type="text" [(ngModel)]="text" name="text">
+    </form>
+
+    <h3>Category List</h3>
+    <ul>
+      <li *ngFor= "let category of categories">
+        {{category.text}}
+        <button (click)="deleteCategory(category.text)">x</button>
+      </li>
+    </ul>

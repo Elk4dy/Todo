@@ -1,0 +1,10 @@
+.navbar-header {
+    margin: 0 auto;
+}
+.navbar-brand {
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-right: none;
+}

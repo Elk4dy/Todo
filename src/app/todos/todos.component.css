@@ -1,0 +1,18 @@
+.container {
+    width: 100%;
+    margin: 20px;
+}
+h3 {
+    margin: 20px 20px 20px 0;
+}
+.d-button {
+    float: right;
+    background-color: #32383e;
+    color: white;
+    text-align: center;
+    border: none;
+    margin-left: 2%;
+}
+.c-date {
+    float: right;
+}
